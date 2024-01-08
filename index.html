@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Day 44 - Feedback UI Design</title>
+  </head>
+  <body>
+    <div id="panel" class="panel-container">
+      <strong
+        >How satisfied are you with our <br />
+        customer support performance?</strong
+      >
+      <div class="ratings-container">
+        <div class="rating">
+          <svg
+            height="40px"
+            width="40px"
+            version="1.1"
+            id="Layer_1"
+            viewBox="0 0 473.935 473.935"
+            xml:space="preserve"
+          >
+            <circle
+              style="fill: #ffc10e"
+              cx="236.967"
+              cy="236.967"
+              r="236.967"
+            />
+            <g>
+              <path
+                style="fill: #333333"
+                d="M356.671,354.1c-66.226-67.618-174.255-67.337-240.096,0.703
+		c-8.389,8.666,4.827,21.912,13.227,13.227c58.87-60.83,154.386-61.204,213.641-0.703C351.896,375.96,365.116,362.721,356.671,354.1
+		L356.671,354.1z"
+              />
+              <circle
+                style="fill: #333333"
+                cx="164.938"
+                cy="155.232"
+                r="37.216"
+              />
+              <circle
+                style="fill: #333333"
+                cx="305.667"
+                cy="155.232"
+                r="37.216"
+              />
+            </g>
+          </svg>
+          <small>Unhappy</small>
+        </div>
+
+        <div class="rating">
+          <svg
+            height="40px"
+            width="40px"
+            version="1.1"
+            id="Layer_1"
+            viewBox="0 0 473.935 473.935"
+            xml:space="preserve"
+          >
+            <circle
+              style="fill: #ffc10e"
+              cx="236.967"
+              cy="236.967"
+              r="236.967"
+            />
+            <g>
+              <circle
+                style="fill: #333333"
+                cx="164.938"
+                cy="155.232"
+                r="37.216"
+              />
+              <circle
+                style="fill: #333333"
+                cx="305.667"
+                cy="155.232"
+                r="37.216"
+              />
+              <path
+                style="fill: #333333"
+                d="M343.257,316.862c-59.281,60.329-154.663,59.854-213.45-0.898
+		c-8.4-8.685-21.616,4.561-13.227,13.227c65.769,67.97,173.645,68.34,239.905,0.898
+		C364.944,321.479,351.721,308.245,343.257,316.862L343.257,316.862z"
+              />
+            </g>
+          </svg>
+          <small>Neutral</small>
+        </div>
+
+        <div class="rating active">
+          <svg
+            height="40px"
+            width="40px"
+            version="1.1"
+            id="Layer_1"
+            viewBox="0 0 473.931 473.931"
+            xml:space="preserve"
+          >
+            <circle
+              style="fill: #ffc10e"
+              cx="236.966"
+              cy="236.966"
+              r="236.966"
+            />
+            <path
+              style="fill: #ffffff"
+              d="M81.391,237.123c0,85.911,69.649,155.56,155.56,155.56c85.915,0,155.564-69.649,155.564-155.56
+	L81.391,237.123L81.391,237.123z"
+            />
+            <g>
+              <path
+                style="fill: #cccbcb"
+                d="M167.728,237.123c0,46.435,0,92.87,0,139.306c6.024,3.001,12.273,5.609,18.709,7.82
+		c0-49.043,0-98.083,0-147.126H167.728z"
+              />
+              <path
+                style="fill: #cccbcb"
+                d="M283.319,237.123c0,49.511,0,99.018,0,148.529c6.432-2.006,12.666-4.453,18.709-7.24
+		c0-47.098,0-94.191,0-141.289L283.319,237.123L283.319,237.123z"
+              />
+            </g>
+            <g>
+              <path
+                style="fill: #333333"
+                d="M219.181,158.793c-1.684-31.255-23.992-53.56-55.243-55.243
+		c-31.184-1.68-53.698,26.522-55.243,55.243c-0.651,12.063,18.061,12,18.709,0c2.537-47.09,70.536-47.09,73.069,0
+		C201.12,170.793,219.832,170.856,219.181,158.793L219.181,158.793z"
+              />
+              <path
+                style="fill: #333333"
+                d="M353.985,158.793c-1.684-31.255-23.992-53.56-55.243-55.243
+		c-31.184-1.68-53.694,26.522-55.243,55.243c-0.651,12.063,18.061,12,18.709,0c2.537-47.09,70.532-47.09,73.069,0
+		C335.924,170.793,354.637,170.856,353.985,158.793L353.985,158.793z"
+              />
+            </g>
+          </svg>
+          <small>Satisfied</small>
+        </div>
+      </div>
+      <button class="btn" id="send">Send Review</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
